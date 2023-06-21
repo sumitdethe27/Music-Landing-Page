@@ -1,0 +1,87 @@
+body{
+    font-family: 'Lilita One', cursive;
+    background-color: peachpuff;
+}
+@media (max-width: 1250px) {
+      .block1{
+        flex-wrap: wrap;
+      }
+      .container{
+        flex-wrap: wrap ;
+      }
+}
+.logo{
+    color: rgb(203, 71, 93);
+    font-size: 3.5rem;
+    text-align: center;
+}
+.trend {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .42s ease;
+}
+.trend :hover {
+    transform: scale(1.23);
+}
+.head1 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+/* main block*/
+.block1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main4 img {
+    border-radius: 50%;
+}
+/*subscription*/
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+.plans {
+    background-color: rgb(207, 144, 144);
+    height: 210px;
+    width: 250px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.duration {
+    font-size: 1.5rem;
+}
+.price {
+    font-size: 1.2rem;
+}
+.plan-button {
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(64, 57, 57);
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    transition: all .42 ease;
+    cursor: pointer;
+}
+.plan-button:hover{
+    transform: scale(1.1);
+    color: black;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
